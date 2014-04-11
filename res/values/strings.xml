@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">达客秀</string>
+    <string name="action_settings">Settings</string>
+    
+	<!--login activity string name -->
+	<string name="e_mailaddress">邮箱:</string>
+	<string name="userhint">邮箱地址</string>
+	<string name="password">密码:</string>
+	<string name="paswhint">输入密码</string>
+	<string name="bt_login">登录</string>
+	<string name="regist">注册</string>
+	<string name="foget">忘记密码</string>
+	
+	<!-- register activty string name -->
+	<string name="re_email">邮箱:</string>
+	<string name="emael_hint">用户登录、找回密码</string>
+	<string name="re_pasw">密码:</string>
+	<string name="pasw_hint">至少六位数字、字母或字符</string>
+	<string name="re_pasw_test">确认密码:</string>
+	<string name="nikename">昵称:</string>
+	<string name="finish_regist">完成注册</string>
+	<!-- forget activty string name -->
+	<string name="prompt">请输入邮箱</string>
+	<string name="bt_forget">完成</string>
+	<!-- CompleteActivity -->
+	<string name="birthday">感谢小伙伴们的祝福~</string>
+</resources>

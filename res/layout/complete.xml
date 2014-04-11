@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:layout_marginTop="12dp"
+	android:paddingLeft="20.0dip"
+	android:paddingRight="20.0dip"
+	android:orientation="vertical"
+	android:id="@+id/ll_perfect_imfor">
+	
+	<RelativeLayout
+        android:id="@+id/switch_face_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dip"
+        android:background="@drawable/item_edit_bg"
+        android:clickable="true" 
+        android:padding="5dip" >
+
+        <ImageView
+            android:id="@+id/face"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/mini_avatar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/face"
+            android:layout_centerHorizontal="true"
+            android:text="点击设置头像"
+            android:textColor="@android:color/black" /> 
+    </RelativeLayout>
+    
+	<LinearLayout
+             android:id="@+id/ll_layout22"
+             android:layout_width="fill_parent"
+             android:layout_height="90.0dip"
+             android:background="@drawable/biankuang"
+             android:orientation="vertical">
+             <LinearLayout
+                 android:id="@+id/ll_regist_gender"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingLeft="10.0dip"
+                 android:layout_weight="1.0"
+                 android:orientation="horizontal">
+		             <TextView 
+			             android:layout_width="wrap_content"
+			             android:layout_height="wrap_content"
+			             android:text="性别:"
+			             android:layout_gravity="center_vertical"/>
+		             <RadioGroup
+			             android:id="@+id/radioGroup_sex_id"
+			             android:layout_width="wrap_content"
+			             android:layout_height="20.0dip"
+			             android:layout_gravity="center_vertical"
+			             android:orientation="horizontal">
+			             <RadioButton
+			                android:id="@+id/boy_id"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"  
+			                android:text="男"/>
+			             <RadioButton
+			                android:id="@+id/girl_id"
+			                android:layout_width="wrap_content"
+			                android:layout_height="wrap_content"  
+			                android:text="女"/>
+			         </RadioGroup>
+             </LinearLayout>
+             <View 
+		         android:layout_width="fill_parent" 
+				 android:layout_height="0.5dip" 
+				 android:background="#000000" />
+             <LinearLayout 
+                 android:id="@+id/ll_register_birthday"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingLeft="10.0dip"
+                 android:layout_weight="1.0"
+                 android:orientation="horizontal"
+                 android:clickable="true">
+                 <TextView 
+			             android:layout_width="wrap_content"
+			             android:layout_height="wrap_content"
+			             android:text="生日:"
+			             android:layout_gravity="center_vertical"/>
+                 <View 
+			         android:layout_width="10.0dip" 
+					 android:layout_height="10.0dip"/>
+                 <TextView 
+                         android:id="@+id/tv_register_birth"
+			             android:layout_width="wrap_content"
+			             android:layout_height="wrap_content"
+			             android:text="@string/birthday"
+			             android:layout_gravity="center_vertical"/>
+             </LinearLayout>
+             <View 
+		         android:layout_width="fill_parent" 
+				 android:layout_height="0.5dip" 
+				 android:background="#000000" />
+             <LinearLayout 
+                 android:id="@+id/ll_register_area"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingLeft="10.0dip"
+                 android:layout_weight="1.0"
+                 android:orientation="horizontal"
+                 android:clickable="true">
+                 <TextView 
+			             android:layout_width="wrap_content"
+			             android:layout_height="wrap_content"
+			             android:text="地区:"
+			             android:layout_gravity="center_vertical"/>
+                 <View 
+			         android:layout_width="10.0dip" 
+					 android:layout_height="10.0dip"/>
+                 <TextView 
+                         android:id="@+id/tv_register_city"
+			             android:layout_width="wrap_content"
+			             android:layout_height="wrap_content"
+			             android:text="小伙伴们，我在这里哦~"
+			             android:layout_gravity="center_vertical"/>
+             </LinearLayout>
+
+     </LinearLayout>
+     <LinearLayout 
+         android:layout_marginTop="30dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_gravity="center_horizontal"
+         >
+         <Button 
+         android:id="@+id/complete"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="提交"
+         />
+     </LinearLayout>
+     
+		
+</LinearLayout>
