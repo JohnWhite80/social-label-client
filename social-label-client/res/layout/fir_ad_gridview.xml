@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:id="@+id/rl_layout1"
+        android:layout_width="100.0dip"
+        android:layout_height="100.0dip">
+        <ImageView 
+            android:id="@+id/main_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_pic1" />
+        <RelativeLayout 
+            android:id="@+id/rl_layout11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/main_pic"
+            android:background="@drawable/main_bg_bottom">
+            <TextView 
+                android:id="@+id/main_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="10.0dip"
+                android:text="季如文-模特"
+                android:textColor="@color/white"/>
+            <TextView 
+                android:id="@+id/main_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/main_text1"
+                android:layout_centerHorizontal="true"
+                android:textSize="10.0dip"
+                android:text="女性模特第一名"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    
+</LinearLayout>

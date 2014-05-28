@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">达客秀</string>
+    <string name="action_settings">设置</string>
+    
+	<!--login activity string name -->
+	<string name="e_mailaddress">邮箱:</string>
+	<string name="userhint">邮箱地址</string>
+	<string name="password">密码:</string>
+	<string name="paswhint">输入密码</string>
+	<string name="bt_login">登录</string>
+	<string name="regist">注册</string>
+	<string name="foget">忘记密码</string>
+	
+	<!-- register activty string name -->
+	<string name="re_email">邮箱:</string>
+	<string name="emael_hint">用户登录、找回密码</string>
+	<string name="re_pasw">密码:</string>
+	<string name="pasw_hint">至少六位数字、字母或字符</string>
+	<string name="re_pasw_test">确认密码:</string>
+	<string name="nikename">昵称:</string>
+	<string name="finish_regist">完成注册</string>
+	<!-- forget activty string name -->
+	<string name="prompt">请输入邮箱</string>
+	<string name="bt_forget">完成</string>
+	<!-- CompleteActivity -->
+	<string name="birthday">感谢小伙伴们的祝福~</string>
+	
+    <string name="main_1_1_1">季如文-Model</string>
+    <string name="main_1_1_2">女性模特第一名</string>
+    <string name="main_1_2_1">里昂青年-外拍</string>
+    <string name="main_1_2_2">男性外拍模特第一名</string>
+    <string name="main_1_3_1">leafstyle-广告创意</string>
+    <string name="main_1_3_2">广告创意第一名</string>
+    <string name="main_2_1_1">安一然ROG-体育摄影</string>
+    <string name="main_2_1_2">体育摄影第一名</string>
+    <string name="main_2_2_1">爱良安-学生</string>
+    <string name="main_2_2_2">校园生活第一名</string>
+    <string name="main_2_3_1">舞动空间-爸爸去哪</string>
+    <string name="main_2_3_2">娱乐记者第一名</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+	<string name="release_to_refresh">释放立即刷新</string>
+	<string name="refreshing">正在刷新…</string>
+	<string name="not_updated_yet">暂未更新过</string>
+	<string name="updated_at">上次更新于%1$s前</string>
+	<string name="updated_just_now">刚刚更新</string>
+	<string name="time_error">时间有问题</string>
+</resources>

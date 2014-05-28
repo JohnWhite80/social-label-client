@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        >
+         <TextView 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:text="@string/re_email"/>
+        <EditText 
+            android:id="@+id/et_email"
+            android:textSize="12dp"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:hint="@string/emael_hint"
+            android:layout_weight="5"/>
+
+        <ImageView
+            android:id="@+id/im_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+         />
+
+        <TextView
+            android:textColor="#FF0000"
+            android:id="@+id/email_test"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_weight="4"/>
+	</LinearLayout>
+	
+	 <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        >
+         <TextView 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:text="@string/re_pasw"/>
+        <EditText 
+            android:textSize="12dp"
+            android:password="true"
+            android:id="@+id/et_pasw"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:hint="@string/pasw_hint"
+            android:layout_weight="5"/>
+        <ImageView 
+            android:id="@+id/im_pasw"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:textColor="#FF0000"
+            android:id="@+id/pasw_test"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_weight="4"/>
+	</LinearLayout>
+	
+	<LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        >
+         <TextView 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:text="@string/re_pasw_test"
+            />
+        <EditText 
+            android:id="@+id/et_repasw"
+            android:password="true"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_weight="5" />
+        <ImageView 
+            android:id="@+id/im_repasw"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:textColor="#FF0000"
+            android:id="@+id/pasw_retest"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_weight="4"/>
+	</LinearLayout>
+	
+	 <LinearLayout
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="horizontal" >
+
+	     <TextView
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:text="@string/nikename" />
+
+	     <EditText
+	         android:id="@+id/et_nikename"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content" 
+	         android:layout_weight="8"/>
+
+	     <TextView
+	         android:id="@+id/nikeTest"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:textColor="#FF0000" 
+	         android:layout_weight="2"/>
+	 </LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    >
+	    <Button 
+	    android:id="@+id/finishregist"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/finish_regist"
+	        />
+	</LinearLayout>
+	
+</LinearLayout>
